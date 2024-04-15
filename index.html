@@ -9,11 +9,16 @@
 
 <body>
     <h1>First repo</h1>
-    <p>Treba dodati formu sa poljem za unos podataka (text) i pripadajucom labelom za vrijeme</p>
-    <p>treba dodati button koji sluzi za submit sadrzaja iz polja</p>
-    <p>Izbrisati ove komentare</p>
-    <p>Kreirati novi branch pod nazivom "ime-prezime-forma"</p>
-    <p>Otvoriti pull request na ovaj projekt</p>
+
+    <form>
+       <label for="unos-podataka">Unesite podatke:</label><br>
+       <input type="text" id="unos-podataka" name="unos-podataka"><br><br>
+
+       <label for="vrijeme">Vrijeme:</label><br>
+       <input type="time" id="vrijeme" name="vrijeme"><br><br>
+
+       <input type="submit" value="Pošalji">
+    </form>
 </body>
 
 </html>
